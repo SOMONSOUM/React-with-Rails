@@ -1,7 +1,7 @@
 # React-with-Rails
 
-This is a simple project for those want to integrate React into Rails Project
-Ruby on Rails web application that uses React as its view layer.
+- This is a simple project for those want to integrate React into Rails Project
+- Ruby on Rails web application that uses React as its view layer.
 
 ## How to start your project
 
