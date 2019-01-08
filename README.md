@@ -1,24 +1,33 @@
-# README
+# React-with_Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a simple project for those want to integrate React into Rails Project
+Ruby on Rails web application that uses React as its view layer.
 
-Things you may want to cover:
+## How to start your project
 
-* Ruby version
+* Create New Project
 
-* System dependencies
+    ```
+    $ rails _5.2.1_ new rails-with-react -T -d postgresql --webpack=react
+    ```
 
-* Configuration
+* Add RSpec for spec support
 
-* Database creation
+    Adding Rspec gem into Gemfile
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+    ```ruby
+    group :development, :test do
+        gem 'rspec-rails', '~> 3.8'
+    end
+    ```
+* Try to Run these commands
+    ```
+    $ gem install bundler
+    $ bundle install
+    $ rails generate rspec:install
+    ```
+    
+    ```
+    $ rails db:migrate
+    $ bin/setup
+    ```
