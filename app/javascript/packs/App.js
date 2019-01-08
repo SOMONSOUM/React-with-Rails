@@ -1,19 +1,21 @@
 import React from 'react'
-import Home from '../components/Home/Home'
+import { Route, Switch } from 'react-router-dom'
+
+import Home from '../pages/Home/Home'
 import Posts from '../components/Post/Posts'
 import NewPost from '../components/Post/NewPost'
-import { Route, Switch } from 'react-router-dom'
+import Layout from '../components/Layout/Layout';
 
 class App extends React.Component {
   render() {
     return (
-      <div>
+      <Layout>
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/posts" component={Posts} />
           <Route exact path="/new_post" component={NewPost} />
-        </Switch>
-      </div>
+      </Switch>
+      </Layout>
     )
   }
 }

@@ -6,10 +6,10 @@ const Post = (props) => {
     body
   } = props.post
   return (
-    <React.Fragment>
-      <h4>{title}</h4>
-      <p>{body}</p>
-    </React.Fragment>
+    <div className="post">
+      <p className="title font-weight-bold"><i className="lni-home"></i>{title}</p>
+      <p className="body">{body}</p>
+    </div>
   )
 }
 
