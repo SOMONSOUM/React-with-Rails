@@ -4,7 +4,7 @@ class NewPost extends React.Component {
   render() {
     return (
       <div>
-        NewPost page
+        <h1 className="text-center"><i className="lni-camera"></i></h1>
       </div>
     )
   }

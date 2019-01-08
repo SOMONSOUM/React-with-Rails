@@ -18,12 +18,12 @@ class Posts extends React.Component {
   render() {
     const { posts } = this.state
     return (
-      <React.Fragment>
+      <div className="container">
         {posts.map(post => (
             <Post key={post.id}
               post={post}/>
           ))}
-      </React.Fragment>
+      </div>
     )
   }
 }

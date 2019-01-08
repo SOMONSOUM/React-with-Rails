@@ -6,7 +6,7 @@ import Posts from '../components/Post/Posts'
 import NewPost from '../components/Post/NewPost'
 import Layout from '../components/Layout/Layout';
 
-class App extends React.Component {
+class Routes extends React.Component {
   render() {
     return (
       <Layout>
@@ -20,4 +20,4 @@ class App extends React.Component {
   }
 }
 
-export default App
+export default Routes

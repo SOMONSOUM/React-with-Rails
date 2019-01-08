@@ -29,7 +29,7 @@ class Nav extends Component {
                     </Link>
                   </li>
                   <li className="button-group">
-                    <Link to="/" className="button btn btn-common">Post a Job</Link>
+                    <Link to="/new_post" className="button btn btn-common">New Post</Link>
                   </li>
                 </ul>
               </div>
