@@ -1,4 +1,4 @@
-# React-with_Rails
+# React-with-Rails
 
 This is a simple project for those want to integrate React into Rails Project
 Ruby on Rails web application that uses React as its view layer.
@@ -26,7 +26,7 @@ Ruby on Rails web application that uses React as its view layer.
     $ bundle install
     $ rails generate rspec:install
     ```
-    
+
     ```
     $ rails db:migrate
     $ bin/setup
