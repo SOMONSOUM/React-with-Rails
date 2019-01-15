@@ -5,7 +5,7 @@ class Nav extends Component {
   render() {
     return (
       <React.Fragment>
-        <nav className="navbar navbar-expand-lg fixed-top scrolling-navbar">
+        <nav className="navbar navbar-expand-lg scrolling-navbar">
           <div className="container">
             <div className="theme-header clearfix">
 

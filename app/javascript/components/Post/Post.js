@@ -6,9 +6,9 @@ const Post = (props) => {
     body
   } = props.post
   return (
-    <div className="post">
-      <p className="title font-weight-bold">{title}</p>
-      <p className="body">{body}</p>
+    <div className="post bg-secondary text-center shadow rounded text-white mt-3">
+      <p className="title font-weight-bold pt-2">{title}</p>
+      <p className="body pb-2">{body}</p>
     </div>
   )
 }

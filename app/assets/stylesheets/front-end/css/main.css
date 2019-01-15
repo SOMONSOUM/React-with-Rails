@@ -1,9 +1,13 @@
 @import "https://fonts.googleapis.com/css?family=Rubik:400,500,700";
 @import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Kantumruy:300,400,700');
 
 body {
     /* font-family: rubik, sans-serif; */
-    font-family: 'Quicksand', sans-serif;
+    /* font-family: 'Quicksand', sans-serif; */
+    font-family: 'Nunito', sans-serif;
+    /* font-family: 'Kantumruy', sans-serif; */
     color: #9a9a9a;
     font-size: 14px;
     font-weight: 400;
@@ -17,10 +21,11 @@ html {
 
 p {
     font-size: 14px;
-    color: #0e0202;
+    /* color: #0e0202; */
     line-height: 26px;
     /* font-family: rubik, sans-serif; */
-    font-family: 'Quicksand', sans-serif;
+    /* font-family: 'Quicksand', sans-serif; */
+    font-family: 'Nunito', sans-serif;
 }
 
 a:hover,
@@ -41,7 +46,8 @@ h2,
 h3,
 h4,
 h5 {
-    font-family: 'Quicksand', sans-serif;
+    /* font-family: 'Quicksand', sans-serif; */
+    font-family: 'Nunito', sans-serif;
     font-size: 40px;
     font-weight: 700;
     color: #191c1e
@@ -93,7 +99,8 @@ a:not([href]):not([tabindex]):hover {
 .section-header .section-title {
     font-size: 30px;
     margin-bottom: 10px;
-    font-family: 'Quicksand', sans-serif;
+    /* font-family: 'Quicksand', sans-serif; */
+    font-family: 'Nunito', sans-serif;
     font-weight: 700;
     color: #333;
     position: relative
@@ -276,7 +283,7 @@ button:focus {
 .page-header {
     padding: 115px 0 50px;
     position: relative;
-    background: url(../img/banner1.jpg)
+    background: url(assets/img/banner1.jpg)
 }
 
 .page-header .inner-header {
